@@ -3,4 +3,4 @@ Sandwich is a project to create low-cost electronics for 3D printing and CNC usi
 The goal is to make an easily built, free and open design capable of running the Marlin firmware that can be built for around $40.
 
 Design work is currently being done in the hobbyist-friendly Eagle CAD.
-If the design exceeds the limits of the free version of Eagle CAD, the design will likely be ported to gEDA or another free CAD system in order to support the fee and open design goal.
+If the design exceeds the limits of the free version of Eagle CAD, the design will likely be ported to gEDA or another free CAD system in order to support the free and open design goal.
