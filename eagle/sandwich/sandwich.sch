@@ -10205,9 +10205,9 @@ general purpose rectifier, 1 A</description>
 <label x="139.7" y="238.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="Y_MIN" gate="-1" pin="KL"/>
-<wire x1="121.92" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
-<label x="116.84" y="101.6" size="1.778" layer="95" rot="R180"/>
+<pinref part="X_MIN" gate="-1" pin="KL"/>
+<wire x1="157.48" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="152.4" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -10222,9 +10222,9 @@ general purpose rectifier, 1 A</description>
 <label x="139.7" y="241.3" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="Y_MAX" gate="-1" pin="KL"/>
-<wire x1="121.92" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="116.84" y="121.92" size="1.778" layer="95" rot="R180"/>
+<pinref part="X_MAX" gate="-1" pin="KL"/>
+<wire x1="157.48" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="152.4" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -10239,9 +10239,9 @@ general purpose rectifier, 1 A</description>
 <label x="167.64" y="238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X_MAX" gate="-1" pin="KL"/>
-<wire x1="157.48" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
-<label x="152.4" y="121.92" size="1.778" layer="95" rot="R180"/>
+<pinref part="Y_MIN" gate="-1" pin="KL"/>
+<wire x1="121.92" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<label x="116.84" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -10295,18 +10295,6 @@ general purpose rectifier, 1 A</description>
 <label x="210.82" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ENABLE0" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT20/TDO_PC4"/>
-<wire x1="134.62" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
-<label x="139.7" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="ENABLE"/>
-<wire x1="223.52" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
-<label x="210.82" y="182.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DIR0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT18/TCK_PC2"/>
@@ -10321,74 +10309,50 @@ general purpose rectifier, 1 A</description>
 </net>
 <net name="STEP1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PCINT22/TOSC1_PC6"/>
-<wire x1="134.62" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
-<label x="139.7" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="STEP"/>
 <wire x1="347.98" y1="187.96" x2="345.44" y2="187.96" width="0.1524" layer="91"/>
 <label x="335.28" y="187.96" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DIR1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT21/TDI_PC5"/>
-<wire x1="134.62" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
-<label x="139.7" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="DIR"/>
-<wire x1="347.98" y1="185.42" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
-<label x="335.28" y="185.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ENABLE1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT23/TOSC2_PC7"/>
 <wire x1="134.62" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="139.7" y="35.56" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="DIR1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="ENABLE"/>
-<wire x1="347.98" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
-<label x="335.28" y="182.88" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="DIR"/>
+<wire x1="347.98" y1="185.42" x2="345.44" y2="185.42" width="0.1524" layer="91"/>
+<label x="335.28" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT22/TOSC1_PC6"/>
+<wire x1="134.62" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<label x="139.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STEP2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT6/ADC6_PA6"/>
-<wire x1="134.62" y1="48.26" x2="139.7" y2="48.26" width="0.1524" layer="91"/>
-<label x="139.7" y="48.26" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="STEP"/>
 <wire x1="223.52" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="210.82" y="88.9" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DIR2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT7/ADC7_PA7"/>
-<wire x1="134.62" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<label x="139.7" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="DIR"/>
-<wire x1="223.52" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<label x="210.82" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ENABLE2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT5/ADC5_PA5"/>
 <wire x1="134.62" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <label x="139.7" y="50.8" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="DIR2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="ENABLE"/>
-<wire x1="223.52" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-<label x="210.82" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="DIR"/>
+<wire x1="223.52" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="210.82" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT6/ADC6_PA6"/>
+<wire x1="134.62" y1="48.26" x2="139.7" y2="48.26" width="0.1524" layer="91"/>
+<label x="139.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="STEP3" class="0">
@@ -10413,18 +10377,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="U$4" gate="G$1" pin="DIR"/>
 <wire x1="347.98" y1="86.36" x2="345.44" y2="86.36" width="0.1524" layer="91"/>
 <label x="335.28" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ENABLE3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT2/ADC2_PA2"/>
-<wire x1="134.62" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<label x="139.7" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="ENABLE"/>
-<wire x1="347.98" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
-<label x="335.28" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEATER0" class="0">
@@ -10463,24 +10415,19 @@ general purpose rectifier, 1 A</description>
 <label x="83.82" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="X_MIN" class="0">
+<net name="Y_MAX" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT10/INT2/AIN0_PB2"/>
 <wire x1="73.66" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="63.5" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X_MIN" gate="-1" pin="KL"/>
-<wire x1="157.48" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="152.4" y="101.6" size="1.778" layer="95" rot="R180"/>
+<pinref part="Y_MAX" gate="-1" pin="KL"/>
+<wire x1="121.92" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="116.84" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="TEMP0" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PCINT0/ADC0_PA0"/>
-<wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<label x="139.7" y="63.5" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="+"/>
@@ -10491,6 +10438,11 @@ general purpose rectifier, 1 A</description>
 <junction x="22.86" y="114.3"/>
 <wire x1="22.86" y1="114.3" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="22.86" y="96.52" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT2/ADC2_PA2"/>
+<wire x1="134.62" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<label x="139.7" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP1" class="0">
@@ -11321,6 +11273,54 @@ general purpose rectifier, 1 A</description>
 <wire x1="342.9" y1="68.58" x2="342.9" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="TQ"/>
 <wire x1="342.9" y1="78.74" x2="347.98" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEMP2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT0/ADC0_PA0"/>
+<wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<label x="139.7" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENABLE" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT7/ADC7_PA7"/>
+<wire x1="134.62" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="139.7" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="ENABLE"/>
+<wire x1="223.52" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="210.82" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="ENABLE"/>
+<wire x1="347.98" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
+<label x="335.28" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="ENABLE"/>
+<wire x1="347.98" y1="182.88" x2="345.44" y2="182.88" width="0.1524" layer="91"/>
+<label x="335.28" y="182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="ENABLE"/>
+<wire x1="223.52" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
+<label x="210.82" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX8" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT20/TDO_PC4"/>
+<wire x1="134.62" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
+<label x="139.7" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX9" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PCINT21/TDI_PC5"/>
+<wire x1="134.62" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<label x="139.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
