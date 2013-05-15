@@ -1998,7 +1998,7 @@ design rules under a new name.</description>
 <element name="C6" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="86.36" y="29.21" rot="R90"/>
 <element name="C7" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="74.93" y="31.75" rot="R180"/>
 <element name="R11" library="resistor" package="0204V" value="4.7k" x="73.66" y="27.94" rot="R180"/>
-<element name="T0" library="SparkFun-Electromechanical" package="TRIM_POT" value="47k" x="71.12" y="50.8" rot="R270"/>
+<element name="T0" library="SparkFun-Electromechanical" package="TRIM_POT" value="4.7k" x="71.12" y="50.8" rot="R270"/>
 <element name="R12" library="resistor" package="0204V" value="1k" x="67.31" y="45.72" rot="R270"/>
 <element name="R13" library="resistor" package="0204V" value="1k" x="74.93" y="45.72" rot="R270"/>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="TO220V" value="MOSFET-NCHANNELFQP30N06L" x="22.86" y="19.05" smashed="yes" rot="R90">
@@ -2044,7 +2044,7 @@ design rules under a new name.</description>
 <element name="C15" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="86.36" y="56.515" rot="R90"/>
 <element name="C16" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="74.93" y="59.055" rot="R180"/>
 <element name="R29" library="resistor" package="0204V" value="4.7k" x="73.66" y="55.245" rot="R180"/>
-<element name="T1" library="SparkFun-Electromechanical" package="TRIM_POT" value="47k" x="71.12" y="78.105" rot="R270"/>
+<element name="T1" library="SparkFun-Electromechanical" package="TRIM_POT" value="4.7k" x="71.12" y="78.105" rot="R270"/>
 <element name="R30" library="resistor" package="0204V" value="1k" x="67.31" y="73.025" rot="R270"/>
 <element name="R31" library="resistor" package="0204V" value="1k" x="74.93" y="73.025" rot="R270"/>
 <element name="JP1" library="jumper" package="JP4Q" value="" x="59.69" y="74.295" rot="R90"/>
@@ -2064,7 +2064,7 @@ design rules under a new name.</description>
 <element name="C20" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="13.97" y="76.835" rot="R270"/>
 <element name="C21" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="25.4" y="74.295"/>
 <element name="R41" library="resistor" package="0204V" value="4.7k" x="26.67" y="78.105"/>
-<element name="T2" library="SparkFun-Electromechanical" package="TRIM_POT" value="47k" x="29.21" y="55.245" rot="R90"/>
+<element name="T2" library="SparkFun-Electromechanical" package="TRIM_POT" value="4.7k" x="29.21" y="55.245" rot="R90"/>
 <element name="R42" library="resistor" package="0204V" value="1k" x="33.02" y="60.325" rot="R270"/>
 <element name="R43" library="resistor" package="0204V" value="1k" x="25.4" y="60.325" rot="R90"/>
 <element name="JP2" library="jumper" package="JP4Q" value="" x="40.64" y="59.055" rot="R270"/>
@@ -2084,7 +2084,7 @@ design rules under a new name.</description>
 <element name="C25" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="13.97" y="49.53" rot="R270"/>
 <element name="C26" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="0.1uF" x="27.94" y="46.99" rot="R180"/>
 <element name="R53" library="resistor" package="0204V" value="4.7k" x="26.67" y="50.8" rot="R180"/>
-<element name="T3" library="SparkFun-Electromechanical" package="TRIM_POT" value="47k" x="29.21" y="26.67" rot="R90"/>
+<element name="T3" library="SparkFun-Electromechanical" package="TRIM_POT" value="4.7k" x="29.21" y="26.67" rot="R90"/>
 <element name="R54" library="resistor" package="0204V" value="1k" x="33.02" y="33.02" rot="R270"/>
 <element name="R55" library="resistor" package="0204V" value="1k" x="25.4" y="33.02" rot="R90"/>
 <element name="JP3" library="jumper" package="JP4Q" value="" x="40.64" y="31.75" rot="R270"/>

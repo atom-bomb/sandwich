@@ -102,6 +102,8 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<description>Sandwich v0.00
+low cost CNC/3D printer controller</description>
 <libraries>
 <library name="atmel">
 <description>&lt;b&gt;AVR Devices&lt;/b&gt;&lt;p&gt;
@@ -10364,7 +10366,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="R11" library="resistor" deviceset="R-US_" device="0204/2V" value="4.7k"/>
 <part name="SUPPLY21" library="supply2" deviceset="+5V" device=""/>
-<part name="T0" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="47k"/>
+<part name="T0" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="4.7k"/>
 <part name="R12" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="SUPPLY22" library="supply2" deviceset="+5V" device=""/>
@@ -10443,7 +10445,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="R29" library="resistor" deviceset="R-US_" device="0204/2V" value="4.7k"/>
 <part name="SUPPLY66" library="supply2" deviceset="+5V" device=""/>
-<part name="T1" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="47k"/>
+<part name="T1" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="4.7k"/>
 <part name="R30" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="SUPPLY67" library="supply2" deviceset="+5V" device=""/>
@@ -10480,7 +10482,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY82" library="supply2" deviceset="GND" device=""/>
 <part name="R41" library="resistor" deviceset="R-US_" device="0204/2V" value="4.7k"/>
 <part name="SUPPLY83" library="supply2" deviceset="+5V" device=""/>
-<part name="T2" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="47k"/>
+<part name="T2" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="4.7k"/>
 <part name="R42" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="R43" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="SUPPLY84" library="supply2" deviceset="+5V" device=""/>
@@ -10517,7 +10519,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY99" library="supply2" deviceset="GND" device=""/>
 <part name="R53" library="resistor" deviceset="R-US_" device="0204/2V" value="4.7k"/>
 <part name="SUPPLY100" library="supply2" deviceset="+5V" device=""/>
-<part name="T3" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="47k"/>
+<part name="T3" library="SparkFun-Electromechanical" deviceset="POT" device="TRIM" value="4.7k"/>
 <part name="R54" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="R55" library="resistor" deviceset="R-US_" device="0204/2V" value="1k"/>
 <part name="SUPPLY101" library="supply2" deviceset="+5V" device=""/>
@@ -10595,7 +10597,7 @@ general purpose rectifier, 1 A</description>
 <wire x1="167.64" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="97" style="longdash"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="78.74" width="0.1524" layer="97" style="longdash"/>
 <text x="193.04" y="251.46" size="6.4516" layer="97">Sandwich v0.00</text>
-<text x="193.04" y="243.84" size="3.81" layer="97">14 May 2013</text>
+<text x="193.04" y="243.84" size="3.81" layer="97">15 May 2013</text>
 <text x="144.78" y="139.7" size="1.778" layer="97">Fan output</text>
 <wire x1="116.84" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="97" style="longdash"/>
 <wire x1="182.88" y1="147.32" x2="182.88" y2="83.82" width="0.1524" layer="97" style="longdash"/>
