@@ -10315,11 +10315,14 @@ general purpose rectifier, 1 A</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4572" drill="0">
+<class number="0" name="default" width="0.381" drill="0">
+<clearance class="0" value="0.3556"/>
 </class>
-<class number="1" name="heater" width="1.6764" drill="0">
+<class number="1" name="heater" width="1.6256" drill="0">
+<clearance class="1" value="0.3556"/>
 </class>
-<class number="2" name="motor" width="1.6764" drill="0">
+<class number="2" name="motor" width="1.6256" drill="0">
+<clearance class="2" value="0.3556"/>
 </class>
 </classes>
 <parts>
