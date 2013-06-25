@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="9" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -292,6 +292,35 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </library>
 <library name="tb6600hq">
 <packages>
+<package name="P-HZIP25-1.00G">
+<pad name="1" x="-12" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="-11" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-10" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="-9" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="-8" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="-7" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="7" x="-6" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="8" x="-5" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="9" x="-4" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="10" x="-3" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="11" x="-2" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="12" x="-1" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="13" x="0" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="14" x="1" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="15" x="2" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="16" x="3" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="17" x="4" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="18" x="5" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="19" x="6" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="20" x="7" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="21" x="8" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="22" x="9" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="23" x="10" y="-2" drill="0.8" shape="long" rot="R90"/>
+<pad name="24" x="11" y="2" drill="0.8" shape="long" rot="R90"/>
+<pad name="25" x="12" y="-2" drill="0.8" shape="long" rot="R90"/>
+<text x="-12" y="9" size="1.27" layer="21">TB6600hg</text>
+<rectangle x1="-14.75" y1="2" x2="14.75" y2="8" layer="21"/>
+</package>
 <package name="TB6600HQ">
 <wire x1="-12" y1="5" x2="-12" y2="0" width="0.127" layer="21"/>
 <wire x1="12" y1="5" x2="12" y2="0" width="0.127" layer="21"/>
@@ -330,7 +359,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <wire x1="20.32" y1="25.4" x2="20.32" y2="-20.32" width="0.254" layer="97"/>
 <wire x1="20.32" y1="-20.32" x2="-20.32" y2="-20.32" width="0.254" layer="97"/>
 <wire x1="-20.32" y1="-20.32" x2="-20.32" y2="25.4" width="0.254" layer="97"/>
-<text x="-5.08" y="5.08" size="1.778" layer="97">Tb6600hq</text>
+<text x="-5.08" y="5.08" size="1.778" layer="97">Tb6600</text>
 <pin name="ALERT" x="-2.54" y="30.48" length="middle" direction="out" rot="R270"/>
 <pin name="S-GND" x="-5.08" y="-25.4" length="middle" direction="pwr" rot="R90"/>
 <pin name="TQ" x="-25.4" y="10.16" length="middle" direction="in"/>
@@ -359,12 +388,44 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TB6600HQ">
+<deviceset name="TB6600">
 <gates>
-<gate name="G$1" symbol="TB6600" x="0" y="-2.54"/>
+<gate name="G$1" symbol="TB6600" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TB6600HQ">
+<device name="HQ" package="TB6600HQ">
+<connects>
+<connect gate="G$1" pin="ALERT" pad="1"/>
+<connect gate="G$1" pin="DIR" pad="22"/>
+<connect gate="G$1" pin="ENABLE" pad="18"/>
+<connect gate="G$1" pin="GND-A" pad="17"/>
+<connect gate="G$1" pin="GND-B" pad="13"/>
+<connect gate="G$1" pin="LATCH" pad="4"/>
+<connect gate="G$1" pin="M1" pad="7"/>
+<connect gate="G$1" pin="M2" pad="8"/>
+<connect gate="G$1" pin="M3" pad="9"/>
+<connect gate="G$1" pin="MON" pad="25"/>
+<connect gate="G$1" pin="NFA" pad="15"/>
+<connect gate="G$1" pin="NFB" pad="11"/>
+<connect gate="G$1" pin="OSC" pad="23"/>
+<connect gate="G$1" pin="OUT1A" pad="16"/>
+<connect gate="G$1" pin="OUT1B" pad="12"/>
+<connect gate="G$1" pin="OUT2A" pad="14"/>
+<connect gate="G$1" pin="OUT2B" pad="10"/>
+<connect gate="G$1" pin="RESET" pad="19"/>
+<connect gate="G$1" pin="S-GND" pad="2"/>
+<connect gate="G$1" pin="STEP" pad="21"/>
+<connect gate="G$1" pin="TQ" pad="3"/>
+<connect gate="G$1" pin="VCCA" pad="20"/>
+<connect gate="G$1" pin="VCCB" pad="6"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+<connect gate="G$1" pin="VREG" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HG" package="P-HZIP25-1.00G">
 <connects>
 <connect gate="G$1" pin="ALERT" pad="1"/>
 <connect gate="G$1" pin="DIR" pad="22"/>
@@ -10324,10 +10385,13 @@ general purpose rectifier, 1 A</description>
 <class number="2" name="motor" width="1.6256" drill="0">
 <clearance class="2" value="0.3556"/>
 </class>
+<class number="3" name="V+" width="1.6256" drill="0">
+<clearance class="3" value="0.3556"/>
+</class>
 </classes>
 <parts>
 <part name="IC1" library="atmel" deviceset="ATMEGA644-*PU" device="" technology="20"/>
-<part name="U$1" library="tb6600hq" deviceset="TB6600HQ" device=""/>
+<part name="U$1" library="tb6600hq" deviceset="TB6600" device="HG"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="Q1" library="special" deviceset="XTAL/S" device="" value="20MHZ"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="PTH2" value="22pF"/>
@@ -10357,8 +10421,8 @@ general purpose rectifier, 1 A</description>
 <part name="R10" library="resistor" deviceset="R-US_" device="0204/2V" value="47k"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="+5V" device=""/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
@@ -10419,7 +10483,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
-<part name="U$2" library="tb6600hq" deviceset="TB6600HQ" device=""/>
+<part name="U$2" library="tb6600hq" deviceset="TB6600" device="HG"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
@@ -10436,8 +10500,8 @@ general purpose rectifier, 1 A</description>
 <part name="R28" library="resistor" deviceset="R-US_" device="0204/2V" value="47k"/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY60" library="supply2" deviceset="+5V" device=""/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
+<part name="C13" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
@@ -10456,7 +10520,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY69" library="supply2" deviceset="+5V" device=""/>
 <part name="JP1" library="jumper" deviceset="JP4Q" device=""/>
 <part name="SUPPLY70" library="supply2" deviceset="+5V" device=""/>
-<part name="U$3" library="tb6600hq" deviceset="TB6600HQ" device=""/>
+<part name="U$3" library="tb6600hq" deviceset="TB6600" device="HG"/>
 <part name="R32" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R33" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R34" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
@@ -10473,8 +10537,8 @@ general purpose rectifier, 1 A</description>
 <part name="R40" library="resistor" deviceset="R-US_" device="0204/2V" value="47k"/>
 <part name="SUPPLY76" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY77" library="supply2" deviceset="+5V" device=""/>
-<part name="C17" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
-<part name="C18" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
+<part name="C17" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
+<part name="C18" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
@@ -10493,7 +10557,7 @@ general purpose rectifier, 1 A</description>
 <part name="SUPPLY86" library="supply2" deviceset="+5V" device=""/>
 <part name="JP2" library="jumper" deviceset="JP4Q" device=""/>
 <part name="SUPPLY87" library="supply2" deviceset="+5V" device=""/>
-<part name="U$4" library="tb6600hq" deviceset="TB6600HQ" device=""/>
+<part name="U$4" library="tb6600hq" deviceset="TB6600" device="HG"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R45" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
 <part name="R46" library="resistor" deviceset="R-US_" device="0204/2V" value="1"/>
@@ -10510,8 +10574,8 @@ general purpose rectifier, 1 A</description>
 <part name="R52" library="resistor" deviceset="R-US_" device="0204/2V" value="47k"/>
 <part name="SUPPLY93" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY94" library="supply2" deviceset="+5V" device=""/>
-<part name="C22" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
-<part name="C23" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uF"/>
+<part name="C22" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
+<part name="C23" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2" value="100uF"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
@@ -10547,9 +10611,9 @@ general purpose rectifier, 1 A</description>
 <part name="TEMP1" library="SparkFun-Connectors" deviceset="M02" device="PTH3"/>
 <part name="T4" library="transistor" deviceset="2N2222" device=""/>
 <part name="SUPPLY42" library="supply2" deviceset="GND" device=""/>
-<part name="R56" library="resistor" deviceset="R-US_" device="0204/2V"/>
+<part name="R56" library="resistor" deviceset="R-US_" device="0204/2V" value="1k7"/>
 <part name="FAN" library="SparkFun-Connectors" deviceset="M02" device="PTH3"/>
-<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH" value="1N4004"/>
 <part name="SUPPLY43" library="supply2" deviceset="V+" device=""/>
 <part name="MOTOR0" library="degson" deviceset="DG3XX-04" device="-3.5"/>
 <part name="MOTOR1" library="degson" deviceset="DG3XX-04" device="-3.5"/>
@@ -10599,7 +10663,7 @@ general purpose rectifier, 1 A</description>
 <wire x1="167.64" y1="78.74" x2="167.64" y2="7.62" width="0.1524" layer="97" style="longdash"/>
 <wire x1="167.64" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="97" style="longdash"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="78.74" width="0.1524" layer="97" style="longdash"/>
-<text x="193.04" y="251.46" size="6.4516" layer="97">Sandwich v0.00</text>
+<text x="193.04" y="251.46" size="6.4516" layer="97">Sandwich v0.01</text>
 <text x="193.04" y="243.84" size="3.81" layer="97">15 May 2013</text>
 <text x="144.78" y="139.7" size="1.778" layer="97">Fan output</text>
 <wire x1="116.84" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="97" style="longdash"/>
@@ -10610,7 +10674,10 @@ general purpose rectifier, 1 A</description>
 <instances>
 <instance part="IC1" gate="G$1" x="104.14" y="40.64"/>
 <instance part="U$1" gate="G$1" x="248.92" y="167.64"/>
-<instance part="J1" gate="G$1" x="152.4" y="238.76"/>
+<instance part="J1" gate="G$1" x="152.4" y="238.76" smashed="yes">
+<attribute name="NAME" x="148.082" y="244.602" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.716" y="231.14" size="1.778" layer="96"/>
+</instance>
 <instance part="Q1" gate="G$1" x="35.56" y="35.56" rot="R90"/>
 <instance part="C1" gate="G$1" x="22.86" y="27.94" rot="R90"/>
 <instance part="C2" gate="G$1" x="22.86" y="43.18" rot="R90"/>
@@ -10671,8 +10738,8 @@ general purpose rectifier, 1 A</description>
 <instance part="SUPPLY27" gate="GND" x="27.94" y="104.14"/>
 <instance part="SUPPLY28" gate="+5V" x="17.78" y="101.6" rot="R180"/>
 <instance part="SUPPLY29" gate="GND" x="25.4" y="124.46"/>
-<instance part="C9" gate="G$1" x="152.4" y="43.18" rot="R90"/>
-<instance part="SUPPLY30" gate="GND" x="157.48" y="43.18" rot="R90"/>
+<instance part="C9" gate="G$1" x="157.48" y="43.18" rot="R90"/>
+<instance part="SUPPLY30" gate="GND" x="162.56" y="40.64" rot="R90"/>
 <instance part="Q3" gate="G$1" x="134.62" y="165.1"/>
 <instance part="SUPPLY31" gate="GND" x="134.62" y="157.48"/>
 <instance part="R17" gate="G$1" x="121.92" y="165.1"/>
@@ -10830,7 +10897,10 @@ general purpose rectifier, 1 A</description>
 <instance part="X_MIN" gate="G$1" x="101.6" y="96.52" rot="R180"/>
 <instance part="TEMP0" gate="G$1" x="22.86" y="137.16" rot="R270"/>
 <instance part="TEMP1" gate="G$1" x="53.34" y="137.16" rot="R270"/>
-<instance part="T4" gate="G$1" x="152.4" y="104.14"/>
+<instance part="T4" gate="G$1" x="152.4" y="104.14" smashed="yes">
+<attribute name="NAME" x="157.48" y="106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="157.48" y="104.14" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY42" gate="GND" x="154.94" y="93.98"/>
 <instance part="R56" gate="G$1" x="142.24" y="104.14"/>
 <instance part="FAN" gate="G$1" x="152.4" y="129.54" rot="R270"/>
@@ -10993,6 +11063,7 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="43.18" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
@@ -11677,7 +11748,7 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="165.1" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
-<label x="12.7" y="165.1" size="1.778" layer="95"/>
+<label x="17.78" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEATER1" class="0">
@@ -11689,7 +11760,7 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
-<label x="106.68" y="165.1" size="1.778" layer="95"/>
+<label x="104.14" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="Z_MIN" class="0">
@@ -12061,7 +12132,7 @@ general purpose rectifier, 1 A</description>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="AREF"/>
-<wire x1="134.62" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
