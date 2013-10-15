@@ -359,10 +359,11 @@ UsedLibrary="/home/abriggs/eagle-6.4.0/lbr/SparkFun-Eagle-Libraries-master/Spark
 UsedLibrary="/home/abriggs/eagle-6.4.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-RF.lbr"
 UsedLibrary="/home/abriggs/eagle-6.4.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Resistors.lbr"
 UsedLibrary="/home/abriggs/eagle-6.4.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
+UsedLibrary="/home/abriggs/eagle/sandwich/sandwich_github/eagle/libraries/tb6600hq.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="78 293 677 692"
+Loc="190 139 1365 633"
 State=2
 Number=0
 
